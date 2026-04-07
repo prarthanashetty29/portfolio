@@ -1,5 +1,6 @@
 "use client";
 
+import { MoonIcon, SunIcon } from "@/components/ThemeIcons";
 import { useThemeMode } from "@/lib/ThemeModeContext";
 import {
   FloatingBubbleButton,
@@ -19,7 +20,7 @@ export function FloatingThemeBubble() {
         }
         title={mode === "light" ? "Dark mode" : "Light mode"}
       >
-        <span aria-hidden>{mode === "light" ? "🌙" : "☀️"}</span>
+        {mode === "dark" ? <SunIcon /> : <MoonIcon />}
       </FloatingBubbleButton>
     </FloatingBubbleWrap>
   );

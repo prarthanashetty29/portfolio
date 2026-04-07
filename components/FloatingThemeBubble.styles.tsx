@@ -2,7 +2,7 @@
 
 import styled from "styled-components";
 
-/** Mobile-only FAB-style theme control (emoji). Hidden at `md` and up. */
+/** Mobile-only FAB-style theme control. Hidden at `md` and up. */
 export const FloatingBubbleWrap = styled.div`
   display: none;
 
@@ -22,7 +22,6 @@ export const FloatingBubbleButton = styled.button`
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  font-size: 1.5rem;
   line-height: 1;
   display: flex;
   align-items: center;
@@ -52,5 +51,23 @@ export const FloatingBubbleButton = styled.button`
   &:focus-visible {
     outline: 2px solid var(--text-primary);
     outline-offset: 3px;
+  }
+
+  svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  svg[data-icon="sun"] {
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 1.75;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  svg[data-icon="moon"] {
+    fill: currentColor;
+    stroke: none;
   }
 `;
