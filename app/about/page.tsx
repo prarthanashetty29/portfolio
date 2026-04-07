@@ -187,7 +187,7 @@ export default function AboutPage() {
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
         </HeadshotWrap>
-        <PageTitle>About me</PageTitle>
+        <PageTitle>About Me</PageTitle>
         <Lead>
           3+ years of experience turning raw data into reliable pipelines,
           models, and dashboards across industries, team sizes, and tech stacks.

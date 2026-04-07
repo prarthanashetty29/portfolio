@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact",
+  title: "Projects",
   description:
-    "Get in touch for data engineering, analytics, and collaboration opportunities.",
+    "Data engineering and analytics projects — pipelines, dimensional models, and dashboards.",
 };
 
-export default function ContactLayout({
+export default function ProjectsLayout({
   children,
 }: {
   children: React.ReactNode;

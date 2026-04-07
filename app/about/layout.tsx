@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact",
+  title: "About Me",
   description:
-    "Get in touch for data engineering, analytics, and collaboration opportunities.",
+    "Experience, education, and background in data engineering, analytics, and BI.",
 };
 
-export default function ContactLayout({
+export default function AboutLayout({
   children,
 }: {
   children: React.ReactNode;

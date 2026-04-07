@@ -5,7 +5,7 @@ import { THEME_INIT_SCRIPT } from "@/lib/theme-init-script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Data Engineer & Analyst | Portfolio",
+  title: "Portfolio Home",
   description:
     "Portfolio showcasing data pipelines, analytics, and engineering work.",
 };
