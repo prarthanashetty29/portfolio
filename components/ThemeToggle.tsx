@@ -1,13 +1,10 @@
 "use client";
 
-import { useCallback, useLayoutEffect, useState } from "react";
+import { useThemeMode } from "@/lib/ThemeModeContext";
 import {
-  applyTheme,
-  getStoredTheme,
-  type ThemeMode,
-  resolveInitialTheme,
-} from "@/lib/theme-storage";
-import { ToggleButton } from "@/components/ThemeToggle.styles";
+  DesktopThemeToggleWrap,
+  ToggleButton,
+} from "@/components/ThemeToggle.styles";
 
 function SunIcon() {
   return (
@@ -27,40 +24,20 @@ function MoonIcon() {
 }
 
 export function ThemeToggle() {
-  const [mode, setMode] = useState<ThemeMode>("light");
-
-  useLayoutEffect(() => {
-    const initial = resolveInitialTheme();
-    applyTheme(initial);
-    setMode(initial);
-
-    const mq = window.matchMedia("(prefers-color-scheme: dark)");
-    const onChange = () => {
-      if (getStoredTheme() != null) return;
-      const next = mq.matches ? "dark" : "light";
-      applyTheme(next);
-      setMode(next);
-    };
-    mq.addEventListener("change", onChange);
-    return () => mq.removeEventListener("change", onChange);
-  }, []);
-
-  const toggle = useCallback(() => {
-    const next: ThemeMode = mode === "light" ? "dark" : "light";
-    applyTheme(next);
-    setMode(next);
-  }, [mode]);
+  const { mode, toggle } = useThemeMode();
 
   return (
-    <ToggleButton
-      type="button"
-      onClick={toggle}
-      aria-label={
-        mode === "light" ? "Switch to dark mode" : "Switch to light mode"
-      }
-      title={mode === "light" ? "Dark mode" : "Light mode"}
-    >
-      {mode === "dark" ? <SunIcon /> : <MoonIcon />}
-    </ToggleButton>
+    <DesktopThemeToggleWrap>
+      <ToggleButton
+        type="button"
+        onClick={toggle}
+        aria-label={
+          mode === "light" ? "Switch to dark mode" : "Switch to light mode"
+        }
+        title={mode === "light" ? "Dark mode" : "Light mode"}
+      >
+        {mode === "dark" ? <SunIcon /> : <MoonIcon />}
+      </ToggleButton>
+    </DesktopThemeToggleWrap>
   );
 }

@@ -2,6 +2,15 @@
 
 import styled from "styled-components";
 
+/** Header toggle: hidden on small screens (floating emoji bubble is used instead). */
+export const DesktopThemeToggleWrap = styled.span`
+  display: inline-flex;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
+
 export const ToggleButton = styled.button`
   display: inline-flex;
   align-items: center;

@@ -29,12 +29,25 @@ export const HeaderInner = styled.div`
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.625rem;
+    padding: 0.625rem max(1rem, env(safe-area-inset-left))
+      0.5rem max(1rem, env(safe-area-inset-right));
+  }
 `;
 
 export const HeaderEnd = styled.div`
   display: flex;
   align-items: center;
   gap: 0.5rem;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    min-width: 0;
+  }
 `;
 
 export const Brand = styled(Link)`
@@ -43,6 +56,7 @@ export const Brand = styled(Link)`
   letter-spacing: -0.022em;
   color: var(--text-primary);
   text-decoration: none;
+  min-width: 0;
 
   span {
     font-weight: 400;
@@ -52,12 +66,36 @@ export const Brand = styled(Link)`
   &:hover {
     opacity: 0.8;
   }
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    line-height: 1.25;
+
+    span {
+      display: none;
+    }
+  }
 `;
 
 export const Nav = styled.nav`
   display: flex;
   align-items: center;
   gap: 0.125rem;
+
+  @media (max-width: 768px) {
+    flex-wrap: nowrap;
+    gap: 0.25rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    padding-bottom: 4px;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
 `;
 
 export const NavLink = styled(Link)<{ $active?: boolean }>`
@@ -77,6 +115,13 @@ export const NavLink = styled(Link)<{ $active?: boolean }>`
   &:hover {
     color: var(--text-primary);
     background: var(--fill);
+  }
+
+  @media (max-width: 768px) {
+    flex: 0 0 auto;
+    padding: 0.4rem 0.65rem;
+    font-size: 0.75rem;
+    touch-action: manipulation;
   }
 `;
 
