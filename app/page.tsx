@@ -38,19 +38,19 @@ const HOME_SKILL_TAGS = [
 
 const skills = [
   {
-    title: "ETL & pipeline engineering",
+    title: "ETL & Pipeline Engineering",
     text: "MuleSoft, Talend, Alteryx, Airflow : End-to-end pipeline design with schema mapping, batched ingestion, and validation built in from day one.",
   },
   {
-    title: "Data warehousing & modeling",
+    title: "Data Warehousing & Modeling",
     text: "Snowflake, Microsoft Fabric, SQL Server : Medallion architecture, star schema dimensional modeling, and migration frameworks designed for scale.",
   },
   {
-    title: "Analytics & reporting",
+    title: "Analytics & Reporting",
     text: "Power BI, Tableau, and Advanced Excel : Translating business requirements into dimensional models, DAX measures, Power Pivot, VBA-enabled reports, and executive dashboards that drive decisions.",
   },
   {
-    title: "Data quality & automation",
+    title: "Data Quality & Automation",
     text: "SQL and Python for validation pipelines, deduplication, schema conformance, and automated workflows so issues surface before stakeholders do.",
   },
 ];
@@ -86,7 +86,7 @@ export default function HomePage() {
             <StatLabel>years in data engineering & analytics</StatLabel>
           </div>
           <div>
-            <StatValue>100k+</StatValue>
+            <StatValue>1M+</StatValue>
             <StatLabel>records migrated & validated</StatLabel>
           </div>
           <div>
