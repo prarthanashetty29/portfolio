@@ -57,7 +57,7 @@ const links = [
 
 const quickFacts = [
   { label: "Location", value: "Boston, MA" },
-  { label: "Experience", value: "3+ years" },
+  { label: "Experience", value: "4 years" },
   { label: "Availability", value: "Immediate" },
 ];
 
