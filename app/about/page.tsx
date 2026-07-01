@@ -40,7 +40,7 @@ const timeline: TimelineEntry[] = [
     tagKeys: ["Microsoft Fabric", "Power BI", "Power Query", "DAX", "Medallion Architecture", "Dashboard Reporting"],
     bullets: [
       <>
-        Supported a <strong>medallion architecture</strong>strong> (Bronze, Silver, Gold) 
+        Supported a <strong>medallion architecture</strong> (Bronze, Silver, Gold) 
         in Microsoft Fabric for standardizing insurance & financial datasets for 5+ clients, 
         including financial and insurance claims datasets. Developed Silver & Gold layer mappings, 
         SQL validation scripts & Power BI semantic models supporting resource planning, financial 
@@ -60,13 +60,13 @@ const timeline: TimelineEntry[] = [
         <em>(Big Data Engineering &amp; Business Analysisg)</em>
       </>
     ),
-    meta: "Sep 2023 – Dec 2025 · Northeastern University · Boston, MA, USA · GPA: 3.84",
+    meta: "Sep 2023 - Dec 2025 · Northeastern University · Boston, MA, USA · GPA: 3.84",
     tagKeys: ["SQL", "Power BI", "Tableau", "Alteryx", "Talend","Snowflake","Gen AI"],
     text: "Graduate coursework concentrated on distributed data systems, warehouse design, and large-scale ETL : including hands-on projects in SQL Server, Talend, and cloud-native pipelines.",
   },
   {
     role: "Data Analyst",
-    meta: "Jan 2025 – Aug 2025 · Combined Jewish Philanthropies · Boston, MA, USA",
+    meta: "Jan 2025 - Aug 2025 · Combined Jewish Philanthropies · Boston, MA, USA",
     tagKeys: ["SQL","Snowflake","CRM", "ETL", "MuleSoft", "Salesforce", "Power BI", "DAX", "Power Query",  "Python", "Dashboard Reporting"],
     bullets: [
       <>
@@ -99,7 +99,7 @@ const timeline: TimelineEntry[] = [
   },
   {
     role: "Office Operations Analyst & Representative",
-    meta: "Nov 2023 – Dec 2024 · Northeastern University · Boston, MA, USA",
+    meta: "Nov 2023 - Dec 2024 · Northeastern University · Boston, MA, USA",
     tagKeys: ["Excel", "VBA", "Compliance","Pivot Tables","Power Pivot"],
     bullets: [
       <>
@@ -115,7 +115,7 @@ const timeline: TimelineEntry[] = [
   },
   {
     role: "Custom Data Engineering Analyst",
-    meta: "Jun 2021 – Jul 2023 · Accenture · Client: State Farm Insurance",
+    meta: "Jun 2021 - Jul 2023 · Accenture · Client: State Farm Insurance",
     tagKeys: ["SQL", "Splunk", "Root Cause Analysis", "Agile","Stakeholder Management","ServiceNow"],
     bullets: [
       <>
@@ -148,7 +148,7 @@ const timeline: TimelineEntry[] = [
         Quality Assurance Intern <em>(SDLC Compliance)</em>
       </>
     ),
-    meta: "Dec 2020 – Jun 2021 · CeX Webuy Entertainment",
+    meta: "Dec 2020 - Jun 2021 · CeX Webuy Entertainment",
     tagKeys: ["QMetry", "Quality", "Testing", "UAT"],
     bullets: [
       <>
@@ -165,7 +165,7 @@ const timeline: TimelineEntry[] = [
   },
   {
     role: "Bachelor of Engineering (BE), Computer Science",
-    meta: "2017 – 2021 · Fr. Conceicao Rodrigues College of Engineering",
+    meta: "2017 - 2021 · Fr. Conceicao Rodrigues College of Engineering",
     text: "Activities: CRCE Formula Racing (marketing & web), Entrepreneurship Cell (tech head), drama club, Rotary Club.",
   },
 ];
