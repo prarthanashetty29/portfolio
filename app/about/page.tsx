@@ -41,13 +41,13 @@ const timeline: TimelineEntry[] = [
     bullets: [
       <>
         Supported a <strong>medallion architecture</strong> (Bronze, Silver, Gold) 
-        in Microsoft Fabric for standardizing insurance & financial datasets for 5+ clients, 
+        in <strong>Microsoft Fabric</strong> for standardizing insurance & financial datasets for 5+ clients, 
         including financial and insurance claims datasets. Developed Silver & Gold layer mappings, 
-        SQL validation scripts & Power BI semantic models supporting resource planning, financial 
+        <strong>SQL</strong> validation scripts & <strong>Power BI semantic models</strong> supporting resource planning, financial 
         reporting accuracy, & data quality
       </>,
       <>
-        Designed executive Power BI dashboards & structured reports by translating stakeholder 
+        Designed executive <strong>Power BI dashboards</strong> & structured reports by translating stakeholder 
         requirements into clear insights, usability improvements, & recommendations for cross-functional 
         stakeholders across Billing Transactions, Premium Billing, & Correction Audit reports
       </>,
@@ -93,7 +93,7 @@ const timeline: TimelineEntry[] = [
       </>,
       <>
         Tuned high-volume Snowflake SQL and data models leveraging AI tools
-        to cut average dashboard refresh time <strong>~25%</strong>.
+        to cut average dashboard refresh time.
       </>,
     ],
   },
@@ -104,7 +104,7 @@ const timeline: TimelineEntry[] = [
     bullets: [
       <>
         Analyzed course approval, registration, scheduling, and compliance data 
-        using Advanced Excel, VBA, PivotTables, Power Pivot, and MS Access to improve 
+        using <strong>Advanced Excel, VBA, PivotTables, Power Pivot</strong>, and MS Access to improve 
         administrative reporting accuracy for 20+ users
       </>,
       <>
@@ -119,25 +119,25 @@ const timeline: TimelineEntry[] = [
     tagKeys: ["SQL", "Splunk", "Root Cause Analysis", "Agile","Stakeholder Management","ServiceNow"],
     bullets: [
       <>
-        Led cross-functional root cause identification and operational analysis of 
+        Led cross-functional <strong>root cause identification</strong> and operational analysis of 
         production data discrepancies for claims, policy, & financial transaction data 
         using <strong>SQL</strong>, reducing incident resolution time by 15% & improving reliability 
         for business users
       </>,
       <>
-        Hot-patched erroneous production data with real-time <strong>SQL</strong>, correcting 
+        Hot-patched erroneous <strong>production data</strong> with real-time <strong>SQL</strong>, correcting 
         live data without a full deployment cycle.
       </>,
       <>
-        Used Splunk logs and root cause analysis; improved error detection rate <strong>~20%</strong>.
+        Used Splunk logs and <strong>root cause analysis</strong>; improved error detection rate <strong>~20%</strong>.
       </>,
       <>
-        Drove stakeholder alignment through agile ceremonies (daily standups,
+        Drove stakeholder alignment through <strong>agile</strong> ceremonies (daily standups,
         sprint reviews); maintained <strong>~95%</strong> resolution rate on
         production data incidents.
       </>,
       <>
-        Conducted incident pattern analysis & RCA to identify repeat failure modes in
+        Conducted incident <strong>pattern analysis</strong> & RCA to identify repeat failure modes in
         claims workflows and improved resource allocation.
       </>,
     ],
