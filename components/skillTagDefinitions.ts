@@ -49,6 +49,38 @@ export const TAGS = {
   "Scikit-learn": { label: "Scikit-learn", bg: "#F89939", color: "#1a1a1a" },
   ML: { label: "ML", bg: "#6366F1", color: "#ffffff" },
   Classification: { label: "Classification", bg: "#64748B", color: "#ffffff" },
+
+  "Power Query": { label: "Power Query", bg: "#742774", color: "#ffffff" },
+  "Dashboard Reporting": {
+    label: "Dashboard Reporting",
+    bg: "#1D4ED8",
+    color: "#ffffff",
+  },
+  "Microsoft Excel": {
+    label: "Microsoft Excel",
+    bg: "#217346",
+    color: "#ffffff",
+  },
+  "Gen AI": { label: "Gen AI", bg: "#10A37F", color: "#ffffff" },
+  CRM: { label: "CRM", bg: "#0EA5E9", color: "#ffffff" },
+  Compliance: { label: "Compliance", bg: "#334155", color: "#ffffff" },
+  "Pivot Tables": { label: "Pivot Tables", bg: "#217346", color: "#ffffff" },
+  "Power Pivot": { label: "Power Pivot", bg: "#217346", color: "#ffffff" },
+  "Root Cause Analysis": {
+    label: "Root Cause Analysis",
+    bg: "#7C2D12",
+    color: "#ffffff",
+  },
+  "Stakeholder Management": {
+    label: "Stakeholder Management",
+    bg: "#9333EA",
+    color: "#ffffff",
+  },
+  ServiceNow: { label: "ServiceNow", bg: "#81B5A1", color: "#0a0a0a" },
+  Quality: { label: "Quality", bg: "#0F766E", color: "#ffffff" },
+  Testing: { label: "Testing", bg: "#475569", color: "#ffffff" },
+  AWS: { label: "AWS", bg: "#FF9900", color: "#1a1a1a" },
+}
 } as const satisfies Record<string, { label: string; bg: string; color: string }>;
 
 export type TagKey = keyof typeof TAGS;
