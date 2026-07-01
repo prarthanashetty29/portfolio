@@ -32,7 +32,7 @@ export function SiteLayout({ children }: { children: React.ReactNode }) {
         <HeaderBar>
           <HeaderInner>
             <Brand href="/">
-              Prarthana Shetty<span> — data portfolio</span>
+              Prarthana Shetty<span> - data portfolio</span>
             </Brand>
             <HeaderEnd>
               <Nav>
