@@ -37,40 +37,37 @@ const timeline: TimelineEntry[] = [
   {
     role: "Data Analyst",
     meta: "Mar 2026 – Present · OnPoint Insights (Contract) · Boston, MA, USA",
-    tagKeys: ["Microsoft Fabric", "Power BI", "Medallion Architecture", "ETL"],
+    tagKeys: ["Microsoft Fabric", "Power BI", "Power Query", "DAX", "Medallion Architecture", "Dashboard Reporting"],
     bullets: [
       <>
-        Designing a Medallion architecture (
-        <strong>Bronze → Silver → Gold</strong>) in Microsoft Fabric to unify
-        multi-client insurance datasets across ingestion, transformation, and
-        analytics layers.
+        Supported a <strong>medallion architecture</strong>strong> (Bronze, Silver, Gold) 
+        in Microsoft Fabric for standardizing insurance & financial datasets for 5+ clients, 
+        including financial and insurance claims datasets. Developed Silver & Gold layer mappings, 
+        SQL validation scripts & Power BI semantic models supporting resource planning, financial 
+        reporting accuracy, & data quality
       </>,
       <>
-        Authoring <strong>Silver</strong> and <strong>Gold</strong>-layer
-        transforms: deduplication, schema standardization, and business-rule
-        enforcement to produce analytics-ready tables.
-      </>,
-      <>
-        Building dimensional Power BI data models and client-facing dashboards
-        translated directly from stakeholder requirements.
+        Designed executive Power BI dashboards & structured reports by translating stakeholder 
+        requirements into clear insights, usability improvements, & recommendations for cross-functional 
+        stakeholders across Billing Transactions, Premium Billing, & Correction Audit reports
       </>,
     ],
   },
   {
     role: (
       <>
-        MS Information Systems{" "}
-        <em>(Big Data &amp; Data Engineering)</em>
+        MS Computer Science{" "}
+        <em>(Big Data Engineering &amp; Business Analysisg)</em>
       </>
     ),
     meta: "Sep 2023 – Dec 2025 · Northeastern University · Boston, MA, USA · GPA: 3.84",
-    tagKeys: ["SQL Server", "Talend"],
-    text: "Graduate coursework concentrated on distributed data systems, warehouse design, and large-scale ETL — including hands-on projects in SQL Server, Talend, and cloud-native pipelines.",
+    tagKeys: ["SQL", "Power BI", "Tableau", "Alteryx", "Talend","Snowflake","Gen AI"],
+    text: "Graduate coursework concentrated on distributed data systems, warehouse design, and large-scale ETL : including hands-on projects in SQL Server, Talend, and cloud-native pipelines.",
   },
   {
-    role: "Data Analyst Co-Op",
+    role: "Data Analyst",
     meta: "Jan 2025 – Aug 2025 · Combined Jewish Philanthropies · Boston, MA, USA",
-    tagKeys: ["Snowflake", "Power BI", "MuleSoft", "Alteryx", "Python"],
+    tagKeys: ["SQL","Snowflake","CRM", "ETL", "MuleSoft", "Salesforce", "Power BI", "DAX", "Power Query",  "Python", "Dashboard Reporting"],
     bullets: [
       <>
         Built executive Power BI dashboards tracking{" "}
@@ -90,49 +87,49 @@ const timeline: TimelineEntry[] = [
         reduced new-dataset onboarding time <strong>~25%</strong>.
       </>,
       <>
-        Automated post-migration validation — deduplication, schema conformance,
-        and null checks — across <strong>100,000+</strong> records;
+        Automated migration validation with deduplication checks, schema 
+        conformance, and null checks across <strong>100,000+</strong> records;
         post-migration data quality issues down <strong>~35%</strong>.
       </>,
       <>
-        Tuned high-volume Snowflake SQL and data models to cut average dashboard
-        refresh time <strong>~25%</strong>.
+        Tuned high-volume Snowflake SQL and data models leveraging AI tools
+        to cut average dashboard refresh time <strong>~25%</strong>.
       </>,
     ],
   },
   {
     role: "Office Operations Analyst & Representative",
     meta: "Nov 2023 – Dec 2024 · Northeastern University · Boston, MA, USA",
-    tagKeys: ["Excel", "VBA"],
+    tagKeys: ["Excel", "VBA", "Compliance","Pivot Tables","Power Pivot"],
     bullets: [
       <>
-        Built Excel analytical models (PivotTables, VLOOKUP, VBA macros) for
-        course registration data used in compliance reporting; supported{" "}
-        <strong>20+</strong> internal users.
+        Analyzed course approval, registration, scheduling, and compliance data 
+        using Advanced Excel, VBA, PivotTables, Power Pivot, and MS Access to improve 
+        administrative reporting accuracy for 20+ users
       </>,
       <>
-        Maintained shared trackers and structured reporting templates for
-        cross-functional academic and administrative teams.
+        Created shared trackers and Power Point summaries for structured reporting 
+        templates across cross-functional academic and administrative teams.
       </>,
     ],
   },
   {
     role: "Custom Data Engineering Analyst",
-    meta: "Jun 2021 – Jul 2023 · Accenture Solutions Pvt. Ltd. · Client: State Farm Insurance",
-    tagKeys: ["SQL", "Splunk", "XML", "Agile"],
+    meta: "Jun 2021 – Jul 2023 · Accenture · Client: State Farm Insurance",
+    tagKeys: ["SQL", "Splunk", "Root Cause Analysis", "Agile","Stakeholder Management","ServiceNow"],
     bullets: [
       <>
-        Diagnosed and resolved production data defects in claims and policy
-        systems using SQL; cut incident resolution time <strong>~15%</strong> in
-        a high-visibility, customer-facing context.
+        Led cross-functional root cause identification and operational analysis of 
+        production data discrepancies for claims, policy, & financial transaction data 
+        using <strong>SQL</strong>, reducing incident resolution time by 15% & improving reliability 
+        for business users
       </>,
       <>
-        Hot-patched erroneous XML payloads in production with real-time SQL —
-        correcting live data without a full deployment cycle.
+        Hot-patched erroneous production data with real-time <strong>SQL</strong>, correcting 
+        live data without a full deployment cycle.
       </>,
       <>
-        Used Splunk for log analysis and root-cause investigation; improved error
-        detection rate <strong>~20%</strong>.
+        Used Splunk logs and root cause analysis; improved error detection rate <strong>~20%</strong>.
       </>,
       <>
         Drove stakeholder alignment through agile ceremonies (daily standups,
@@ -140,8 +137,8 @@ const timeline: TimelineEntry[] = [
         production data incidents.
       </>,
       <>
-        Conducted incident pattern analysis to identify repeat failure modes in
-        claims workflows and inform resource allocation.
+        Conducted incident pattern analysis & RCA to identify repeat failure modes in
+        claims workflows and improved resource allocation.
       </>,
     ],
   },
@@ -151,24 +148,25 @@ const timeline: TimelineEntry[] = [
         Quality Assurance Intern <em>(SDLC Compliance)</em>
       </>
     ),
-    meta: "Dec 2020 – Jun 2021 · CeX Webuy Entertainment Pvt. Ltd.",
-    tagKeys: ["QMetry", "UAT"],
+    meta: "Dec 2020 – Jun 2021 · CeX Webuy Entertainment",
+    tagKeys: ["QMetry", "Quality", "Testing", "UAT"],
     bullets: [
       <>
-        Executed UAT across regional e-commerce sites for new feature releases,
-        validating against SDLC acceptance criteria.
+        Executed UAT website testing for software releases across regional website 
+        segments, validating functionality,documenting defects, and ensuring 
+        alignment with SDLC release requirements
       </>,
       <>
-        Authored <strong>30+</strong> QMetry test cases supporting test
-        automation coverage; reduced manual testing effort <strong>~25%</strong>{" "}
-        and documented defects to improve release quality.
+        Developed <strong>30+</strong> QMetry test cases supporting test
+        automation; reduced manual testing effort <strong>~25%</strong>{" "}
+        and documented bugs to improve release quality.
       </>,
     ],
   },
   {
-    role: "Bachelor of Engineering (BE), Information Technology",
+    role: "Bachelor of Engineering (BE), Computer Science",
     meta: "2017 – 2021 · Fr. Conceicao Rodrigues College of Engineering",
-    text: "Activities: CRCE Formula Racing (marketing & web), Entrepreneurship Cell (tech head), drama club, Rotaract Club.",
+    text: "Activities: CRCE Formula Racing (marketing & web), Entrepreneurship Cell (tech head), drama club, Rotary Club.",
   },
 ];
 
@@ -230,15 +228,16 @@ export default function AboutPage() {
             the World Cup comes to the city.
           </Body>
           <Body>
-            I learn best by doing, so I keep taking hands-on workshops—recently
-            Microsoft&apos;s Dashboard in a Day and a Fabric Analyst session—to
-            stay current in the data space. Conferences and certifications are
-            part of that habit too; last year I earned the Salesforce Data
-            Architect certification.
+            I learn best by doing, so I keep taking hands-on workshops, including 
+            Microsoft&apos;s Dashboard in a Day (DIAD) and Fabric Analyst sessions, 
+            to stay current in the data space. I now also host DIAD workshops for 
+            fellow analysts, turning what I learn into practical Power BI sessions 
+            others can use. Conferences and certifications are part of that habit 
+            too; last year I earned the Salesforce Data Architect certification.
           </Body>
           <Body>
             When I step away from the screen, I&apos;m usually trying a new
-            restaurant or testing a recipe at home.
+            restaurant or testing a recipe at home!^_^
           </Body>
         </Block>
       </PageWrap>
