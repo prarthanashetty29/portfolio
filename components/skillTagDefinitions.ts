@@ -80,7 +80,6 @@ export const TAGS = {
   Quality: { label: "Quality", bg: "#0F766E", color: "#ffffff" },
   Testing: { label: "Testing", bg: "#475569", color: "#ffffff" },
   AWS: { label: "AWS", bg: "#FF9900", color: "#1a1a1a" },
-}
 } as const satisfies Record<string, { label: string; bg: string; color: string }>;
 
 export type TagKey = keyof typeof TAGS;
