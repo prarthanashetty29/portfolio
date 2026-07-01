@@ -35,7 +35,7 @@ type TimelineEntry = {
 /** Reverse chronological: newest → oldest (top to bottom). */
 const timeline: TimelineEntry[] = [
   {
-    role: "Data Analytics Engineer Intern",
+    role: "Data Analyst",
     meta: "Mar 2026 – Present · OnPoint Insights (Contract) · Boston, MA, USA",
     tagKeys: ["Microsoft Fabric", "Power BI", "Medallion Architecture", "ETL"],
     bullets: [
@@ -189,7 +189,7 @@ export default function AboutPage() {
         </HeadshotWrap>
         <PageTitle>About Me</PageTitle>
         <Lead>
-          3+ years of experience turning raw data into reliable pipelines,
+          4 years of experience turning raw data into reliable pipelines,
           models, and dashboards across industries, team sizes, and tech stacks.
           <br />
           I care about what happens after launch: validation, documentation, and
