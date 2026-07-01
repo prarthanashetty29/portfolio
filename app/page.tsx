@@ -22,8 +22,8 @@ import { SkillTagPillRow } from "@/components/SkillTagPills";
 import type { TagKey } from "@/components/skillTagDefinitions";
 
 const HOME_SKILL_TAGS = [
-  "SQL"
-  "Microsoft Excel"
+  "SQL",
+  "Microsoft Excel",
   "Power BI",
   "Tableau",
   "Snowflake",
