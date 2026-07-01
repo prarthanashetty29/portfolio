@@ -22,32 +22,36 @@ import { SkillTagPillRow } from "@/components/SkillTagPills";
 import type { TagKey } from "@/components/skillTagDefinitions";
 
 const HOME_SKILL_TAGS = [
-  "Snowflake",
+  "SQL"
+  "Microsoft Excel"
   "Power BI",
+  "Tableau",
+  "Snowflake",
+  "Salesforce",
   "MuleSoft",
-  "SQL",
   "Python",
   "Microsoft Fabric",
+  "Alteryx",
   "Talend",
-  "Alteryx"
+  "AWS"
 ] as const satisfies readonly TagKey[];
 
 const skills = [
   {
     title: "ETL & pipeline engineering",
-    text: "MuleSoft, Talend, Alteryx, Airflow — end-to-end pipeline design with schema mapping, batched ingestion, and validation built in from day one.",
+    text: "MuleSoft, Talend, Alteryx, Airflow : End-to-end pipeline design with schema mapping, batched ingestion, and validation built in from day one.",
   },
   {
     title: "Data warehousing & modeling",
-    text: "Snowflake, Microsoft Fabric, SQL Server — Medallion architecture, star schema dimensional modeling, and migration frameworks designed for scale.",
+    text: "Snowflake, Microsoft Fabric, SQL Server : Medallion architecture, star schema dimensional modeling, and migration frameworks designed for scale.",
   },
   {
     title: "Analytics & reporting",
-    text: "Power BI and Tableau — translating business requirements into dimensional models, DAX measures, and executive dashboards that drive decisions.",
+    text: "Power BI, Tableau, and Advanced Excel : Translating business requirements into dimensional models, DAX measures, Power Pivot, VBA-enabled reports, and executive dashboards that drive decisions.",
   },
   {
     title: "Data quality & automation",
-    text: "SQL and Python for validation pipelines, deduplication, schema conformance, and automated workflows — so issues surface before stakeholders do.",
+    text: "SQL and Python for validation pipelines, deduplication, schema conformance, and automated workflows so issues surface before stakeholders do.",
   },
 ];
 
@@ -60,8 +64,8 @@ export default function HomePage() {
             <Eyebrow>Data Engineer · Data Analyst · Analytics Engineer</Eyebrow>
             <Title>Pipelines that hold. Dashboards teams trust.</Title>
             <Subtitle>
-              3+ years building data pipelines, warehouses, and reporting
-              solutions across insurance, nonprofit, and enterprise.
+              4 years building reporting solutions, data pipelines, warehouses, and reporting
+              solutions across insurance, finance, operations and enterprise.
               <br />
               From raw data ingestion to the executive dashboard.
             </Subtitle>
@@ -78,7 +82,7 @@ export default function HomePage() {
           <StatCard>
           <StatGrid>
           <div>
-            <StatValue>3+</StatValue>
+            <StatValue>4</StatValue>
             <StatLabel>years in data engineering & analytics</StatLabel>
           </div>
           <div>
