@@ -35,7 +35,7 @@ type TimelineEntry = {
 /** Reverse chronological: newest → oldest (top to bottom). */
 const timeline: TimelineEntry[] = [
   {
-    role: "Data Analyst",
+    role: "Senior Data Analyst",
     meta: "Mar 2026 – Present · OnPoint Insights (Contract) · Boston, MA, USA",
     tagKeys: ["Microsoft Fabric", "Power BI", "Power Query", "DAX", "Medallion Architecture", "Dashboard Reporting"],
     bullets: [
