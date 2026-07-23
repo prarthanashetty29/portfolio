@@ -223,21 +223,23 @@ export default function AboutPage() {
         <Block>
           <BlockTitle>Outside of work</BlockTitle>
           <Body>
-            Outside of work I stay close to what I care about: community and
-            learning. I volunteer with Startup Boston and signed up to help when
-            the World Cup comes to the city.
+            Outside of work I stay close to what I care about: community and learning. 
+            I volunteer with Startup Boston and signed up to help when the World Cup comes 
+            to the city. I have also supported nonprofit and community initiatives 
+            focused on education access, including volunteering in understaffed government 
+            schools and helping organize marathons and fundraising campaigns for students 
+            from underserved communities.
           </Body>
           <Body>
-            I learn best by doing, so I keep taking hands-on workshops, including 
-            Microsoft&apos;s Dashboard in a Day (DIAD) and Fabric Analyst sessions, 
-            to stay current in the data space. I now also host DIAD workshops for 
-            fellow analysts, turning what I learn into practical Power BI sessions 
-            others can use. Conferences and certifications are part of that habit 
-            too; last year I earned the Salesforce Data Architect certification.
+            I learn best by doing, so I keep taking hands-on workshops, including Microsoft &
+            Fabric Analyst sessions, to stay current in the data space. At OnPoint Insights, 
+            a Microsoft Partner, I now host Microsoft Dashboard in a Day (DIAD) workshops for
+            fellow analysts and professionals, turning technical concepts into practical Power BI 
+            sessions they can use. Conferences and certifications are part of that habit too; 
+            last year I earned the Salesforce Data Architect certification.
           </Body>
           <Body>
-            When I step away from the screen, I&apos;m usually trying a new
-            restaurant or testing a recipe at home!^_^
+            When I step away from the screen, I'm usually trying a new restaurant or testing a recipe at home! ^_^
           </Body>
         </Block>
       </PageWrap>
