@@ -53,7 +53,7 @@ export function SiteLayout({ children }: { children: React.ReactNode }) {
         </HeaderBar>
         <Main>{children}</Main>
         <FooterBar>
-          Built with ♥︎ by Prarthana Shetty
+          Built with ♥︎ by Anna Shetty
         </FooterBar>
         <FloatingThemeBubble />
       </Shell>
