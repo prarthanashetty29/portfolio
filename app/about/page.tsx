@@ -177,7 +177,7 @@ export default function AboutPage() {
         <HeadshotWrap>
           <Image
             src={HEADSHOT_SRC}
-            alt="Prarthana Shetty"
+            alt="Anna Shetty"
             width={192}
             height={192}
             sizes="192px"
