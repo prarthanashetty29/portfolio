@@ -1,4 +1,4 @@
-# Portfolio — Data engineering & analytics
+# Portfolio - Data engineering & analytics
 
 Personal portfolio site built with **Next.js 14** (App Router), **TypeScript**, and **styled-components**. It highlights experience, projects, and contact information with a neutral, Apple-inspired layout and **light / dark mode**.
 
@@ -13,7 +13,7 @@ Personal portfolio site built with **Next.js 14** (App Router), **TypeScript**, 
 
 | Route        | Purpose                                      |
 | ------------ | -------------------------------------------- |
-| `/`          | Home — hero, skill tags, stat card, CTAs   |
+| `/`          | Home - hero, skill tags, stat card, CTAs   |
 | `/about`     | Bio, timeline (experience & education)       |
 | `/projects`  | Project cards with links and stack tags      |
 | `/contact`   | Email, social links, quick facts             |
@@ -30,11 +30,11 @@ npm run lint   # ESLint (Next.js config)
 
 ## Project layout (high level)
 
-- `app/` — routes, `layout.tsx`, `globals.css`, per-route `*.styles.tsx` where used
-- `components/` — shared UI (`SiteLayout`, skill tag pills, `ProjectCard`, theme toggle, etc.)
-- `lib/` — styled-components registry, theme init script / storage
-- `public/images/` — static assets (e.g. `headshot.jpg` for the About page)
-- `assets/` — optional source assets; public URLs use files under `public/`
+- `app/` - routes, `layout.tsx`, `globals.css`, per-route `*.styles.tsx` where used
+- `components/` - shared UI (`SiteLayout`, skill tag pills, `ProjectCard`, theme toggle, etc.)
+- `lib/` - styled-components registry, theme init script / storage
+- `public/images/` - static assets (e.g. `headshot.jpg` for the About page)
+- `assets/` - optional source assets; public URLs use files under `public/`
 
 ## Customization
 
