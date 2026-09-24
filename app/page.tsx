@@ -23,35 +23,36 @@ import type { TagKey } from "@/components/skillTagDefinitions";
 
 const HOME_SKILL_TAGS = [
   "SQL",
-  "Microsoft Excel",
   "Power BI",
-  "Tableau",
-  "Snowflake",
-  "Salesforce",
-  "MuleSoft",
-  "Python",
+  "Microsoft Excel",
   "Microsoft Fabric",
+  "Snowflake",
+  "Python",
   "Alteryx",
-  "Talend",
+  "Salesforce",
+  "Microsoft Dynamics 365",
+  "Tableau",
+  "Power Query",
+  "MuleSoft",
   "AWS"
 ] as const satisfies readonly TagKey[];
 
 const skills = [
   {
-    title: "ETL & Pipeline Engineering",
-    text: "MuleSoft, Talend, Alteryx, Airflow : End-to-end pipeline design with schema mapping, batched ingestion, and validation built in from day one.",
+    title: "Product & Business Analytics",
+    text: "Turning business questions into KPIs, segmentation, experiment analysis, performance metrics, and recommendations that stakeholders can act on.",
   },
   {
-    title: "Data Warehousing & Modeling",
-    text: "Snowflake, Microsoft Fabric, SQL Server : Medallion architecture, star schema dimensional modeling, and migration frameworks designed for scale.",
+    title: "BI & Reporting",
+    text: "Power BI, Tableau, and Advanced Excel : Building dashboards, DAX measures, reporting models, and executive-ready views that make performance easier to understand.",
   },
   {
-    title: "Analytics & Reporting",
-    text: "Power BI, Tableau, and Advanced Excel : Translating business requirements into dimensional models, DAX measures, Power Pivot, VBA-enabled reports, and executive dashboards that drive decisions.",
+    title: "Data Engineering & Modeling",
+    text: "Microsoft Fabric, Snowflake, SQL, MuleSoft, Alteryx, and Talend : Building reporting-ready datasets, scalable ETL pipelines, dimensional models, and CRM migration workflows.",
   },
   {
     title: "Data Quality & Automation",
-    text: "SQL and Python for validation pipelines, deduplication, schema conformance, and automated workflows so issues surface before stakeholders do.",
+    text: "SQL, Python, and validation frameworks for reconciliation, schema checks, deduplication, process automation, and reliable downstream reporting.",
   },
 ];
 
@@ -61,13 +62,13 @@ export default function HomePage() {
       <PageWrap>
         <HeroGrid>
           <div>
-            <Eyebrow>Data Engineer · Data Analyst · Analytics Engineer</Eyebrow>
+            <Eyebrow>Data & Product Analyst · Product Manager · Business Analyst · Data Engineer</Eyebrow>
             <Title>Pipelines that hold. Dashboards teams trust.</Title>
             <Subtitle>
-              4 years building reporting solutions, data pipelines, warehouses, and reporting
-              solutions across insurance, finance, operations and enterprise.
+              4+ years across product analytics, business intelligence, data engineering,
+              experimentation, and reporting across insurance, nonprofit, and operational teams.
               <br />
-              From raw data ingestion to the executive dashboard.
+              I turn complex data into clear metrics, reliable reporting, and actionable insights.
             </Subtitle>
             <CtaRow>
               <PrimaryCta as={Link} href="/projects">
@@ -83,19 +84,19 @@ export default function HomePage() {
           <StatGrid>
           <div>
             <StatValue>4</StatValue>
-            <StatLabel>years in data engineering & analytics</StatLabel>
+            <StatLabel>years across data & product analytics</StatLabel>
           </div>
           <div>
             <StatValue>1M+</StatValue>
-            <StatLabel>records migrated & validated</StatLabel>
+            <StatLabel>CRM records migrated & validated</StatLabel>
           </div>
           <div>
-            <StatValue>65%</StatValue>
-            <StatLabel>reduction in manual reporting</StatLabel>
+            <StatValue>128→8</StatValue>
+            <StatLabel>weekly reporting hours reduced</StatLabel>
           </div>
           <div>
-            <StatValue>2</StatValue>
-            <StatLabel>cloud certifications</StatLabel>
+            <StatValue>95%</StatValue>
+            <StatLabel>production issue resolution rate</StatLabel>
           </div>
         </StatGrid>
           </StatCard>
