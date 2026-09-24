@@ -35,21 +35,27 @@ type TimelineEntry = {
 /** Reverse chronological: newest → oldest (top to bottom). */
 const timeline: TimelineEntry[] = [
   {
-    role: "Senior Data Analyst",
+    role: "Sr. Product Data Analyst",
     meta: "Mar 2026 – Present · OnPoint Insights (Contract) · Boston, MA, USA",
     tagKeys: ["Microsoft Fabric", "Power BI", "Power Query", "DAX", "Medallion Architecture", "Dashboard Reporting"],
     bullets: [
       <>
-        Supported a <strong>medallion architecture</strong> (Bronze, Silver, Gold) 
-        in <strong>Microsoft Fabric</strong> for standardizing insurance & financial datasets for 5+ clients, 
-        including financial and insurance claims datasets. Developed Silver & Gold layer mappings, 
-        <strong>SQL</strong> validation scripts & <strong>Power BI semantic models</strong> supporting resource planning, financial 
-        reporting accuracy, & data quality
+        Built reporting models and <strong>Microsoft Fabric</strong> pipelines across
+        billing, payment, correction, and cancellation workflows, standardizing data
+        from <strong>9 insurance carrier vendors</strong> and reducing reporting
+        turnaround from <strong>128 stakeholder-hours/week to under 8</strong>.
+
       </>,
       <>
-        Designed executive <strong>Power BI dashboards</strong> & structured reports by translating stakeholder 
-        requirements into clear insights, usability improvements, & recommendations for cross-functional 
-        stakeholders across Billing Transactions, Premium Billing, & Correction Audit reports
+        Transformed static reporting into parameterized <strong>Power BI</strong>
+        dashboards using <strong>DAX</strong>, enabling self-service analysis across
+        billing, payments, balances, and period comparisons and supporting retirement
+        of <strong>12+ legacy reports</strong>.
+      </>,
+      <>
+        Built customer segmentation analyses across B2B and B2C survey populations
+        using <strong>Alteryx</strong>, identifying demographic and behavioral patterns
+        and surfacing an estimated <strong>$550K+ revenue opportunity</strong>.
       </>,
     ],
   },
@@ -57,88 +63,79 @@ const timeline: TimelineEntry[] = [
     role: (
       <>
         MS Computer Science{" "}
-        <em>(Big Data Engineering &amp; Business Analysisg)</em>
+        <em>(Big Data Engineering &amp; Business Analysis)</em>
       </>
     ),
     meta: "Sep 2023 - Dec 2025 · Northeastern University · Boston, MA, USA · GPA: 3.84",
     tagKeys: ["SQL", "Power BI", "Tableau", "Alteryx", "Talend","Snowflake","Gen AI"],
-    text: "Graduate coursework concentrated on distributed data systems, warehouse design, and large-scale ETL : including hands-on projects in SQL Server, Talend, and cloud-native pipelines.",
-  },
+    text: "Graduate coursework and projects focused on data engineering, business analytics, database design, cloud data platforms, ETL, business intelligence, and applied AI."  },
   {
-    role: "Data Analyst",
+    role: "Product/Experimentation Data Analyst",
     meta: "Jan 2025 - Aug 2025 · Combined Jewish Philanthropies · Boston, MA, USA",
     tagKeys: ["SQL","Snowflake","CRM", "ETL", "MuleSoft", "Salesforce", "Power BI", "DAX", "Power Query",  "Python", "Dashboard Reporting"],
     bullets: [
       <>
-        Built executive Power BI dashboards tracking{" "}
-        <strong>30+</strong> campaign and donor-engagement KPIs; reduced manual
-        reporting effort <strong>~65%</strong> and accelerated stakeholder
-        access to live metrics.
+        Defined a <strong>North Star KPI framework</strong> with 30+ supporting
+        engagement, conversion, and ROI metrics, creating consistent measurement
+        standards across stakeholder teams.
       </>,
       <>
-        Designed and executed a MuleSoft ETL pipeline migrating{" "}
-        <strong>100,000+</strong> CRM records from Blackbaud to Salesforce with
-        full schema mapping and field standardization; cut manual reconciliation{" "}
-        <strong>~40%</strong>.
+        Ran <strong>15+ A/B experiments</strong> across messaging, audience, and
+        campaign segments using significance testing, contributing to a
+        <strong>12% improvement in engagement</strong> within 90 days.
       </>,
       <>
-        Architected a metadata-driven Snowflake migration framework using schema
-        discovery and dynamic SQL with batched <strong>~50k-record</strong> runs;
-        reduced new-dataset onboarding time <strong>~25%</strong>.
+        Migrated <strong>1M+ CRM records</strong> from Blackbaud to Salesforce through
+        MuleSoft and Snowflake workflows, with schema mapping, transformation, and
+        reconciliation controls.
       </>,
       <>
-        Automated migration validation with deduplication checks, schema 
-        conformance, and null checks across <strong>100,000+</strong> records;
-        post-migration data quality issues down <strong>~35%</strong>.
-      </>,
-      <>
-        Tuned high-volume Snowflake SQL and data models leveraging AI tools
-        to cut average dashboard refresh time.
+        Automated SQL validation across <strong>1M+ records</strong> for duplicates,
+        nulls, and schema errors while building metadata-driven processes for
+        migration monitoring and investigation.
       </>,
     ],
   },
   {
-    role: "Office Operations Analyst & Representative",
+    role: "Business Operations Analyst",
     meta: "Nov 2023 - Dec 2024 · Northeastern University · Boston, MA, USA",
     tagKeys: ["Excel", "VBA", "Compliance","Pivot Tables","Power Pivot"],
     bullets: [
       <>
-        Analyzed course approval, registration, scheduling, and compliance data 
-        using <strong>Advanced Excel, VBA, PivotTables, Power Pivot</strong>, and MS Access to improve 
-        administrative reporting accuracy for 20+ users
+        Analyzed course approval, registration, scheduling, and capacity-planning data
+        using <strong>Excel, VBA, PivotTables, and Power Pivot</strong>, improving
+        reporting visibility for 20+ stakeholders.
       </>,
       <>
-        Created shared trackers and Power Point summaries for structured reporting 
-        templates across cross-functional academic and administrative teams.
+        Automated shared trackers and recurring reporting workflows, reducing status
+        consolidation from roughly <strong>2 hours to under 30 minutes</strong>.
       </>,
     ],
   },
   {
-    role: "Custom Data Engineering Analyst",
+    role: "Product Data Engineering Analyst",
     meta: "Jun 2021 - Jul 2023 · Accenture · Client: State Farm Insurance",
     tagKeys: ["SQL", "Splunk", "Root Cause Analysis", "Agile","Stakeholder Management","ServiceNow"],
     bullets: [
       <>
-        Led cross-functional <strong>root cause identification</strong> and operational analysis of 
-        production data discrepancies for claims, policy, & financial transaction data 
-        using <strong>SQL</strong>, reducing incident resolution time by 15% & improving reliability 
-        for business users
+        Analyzed P&C insurance claims, policy, and financial data using
+        <strong> SQL and AWS Redshift</strong>, leading root-cause investigations
+        while maintaining a <strong>95% issue-resolution rate</strong>.
+
       </>,
       <>
         Hot-patched erroneous <strong>production data</strong> with real-time <strong>SQL</strong>, correcting 
         live data without a full deployment cycle.
       </>,
       <>
-        Used Splunk logs and <strong>root cause analysis</strong>; improved error detection rate <strong>~20%</strong>.
+        Standardized SLA, incident, and resolution KPIs through automated reporting,
+        giving <strong>4 global analyst teams</strong> consistent visibility into
+        operational and product performance.
       </>,
       <>
-        Drove stakeholder alignment through <strong>agile</strong> ceremonies (daily standups,
-        sprint reviews); maintained <strong>~95%</strong> resolution rate on
-        production data incidents.
-      </>,
-      <>
-        Conducted incident <strong>pattern analysis</strong> & RCA to identify repeat failure modes in
-        claims workflows and improved resource allocation.
+        Analyzed <strong>Splunk</strong> logs and recurring production failure
+        patterns, improving early issue detection and helping business and technical
+        teams prioritize data corrections and enhancements.
       </>,
     ],
   },
@@ -153,7 +150,7 @@ const timeline: TimelineEntry[] = [
     bullets: [
       <>
         Executed UAT website testing for software releases across regional website 
-        segments, validating functionality,documenting defects, and ensuring 
+        segments, validating functionality, documenting defects, and ensuring 
         alignment with SDLC release requirements
       </>,
       <>
@@ -187,14 +184,15 @@ export default function AboutPage() {
         </HeadshotWrap>
         <PageTitle>About Me</PageTitle>
         <Lead>
-          4 years of experience turning raw data into reliable pipelines,
-          models, and dashboards across industries, team sizes, and tech stacks.
-          <br />
-          I care about what happens after launch: validation, documentation, and
-          metrics that hold up over time.
-          <br />
-          Currently open to Data Engineer, Data Analyst, and Analytics Engineer
-          roles.
+           Data and product analytics professional with 4+ years of experience turning
+           business questions and complex data into reliable reporting, product insights,
+           data models, and scalable analytics solutions.
+           <br />
+           My work spans product analytics, experimentation, insurance operations,
+           CRM migrations, data engineering, and business intelligence.
+           <br />
+           Currently open to Data/Product Analyst, Product Manager, Business Analyst, and  
+           Data Engineer roles.
         </Lead>
 
         <Block>
@@ -231,12 +229,13 @@ export default function AboutPage() {
             from underserved communities.
           </Body>
           <Body>
-            I learn best by doing, so I keep taking hands-on workshops, including Microsoft &
+            I learn best by doing, so I keep taking hands-on workshops, including Microsoft 
             Fabric Analyst sessions, to stay current in the data space. At OnPoint Insights, 
             a Microsoft Partner, I now host Microsoft Dashboard in a Day (DIAD) workshops for
             fellow analysts and professionals, turning technical concepts into practical Power BI 
             sessions they can use. Conferences and certifications are part of that habit too; 
-            last year I earned the Salesforce Data Architect certification.
+            I also earned the Salesforce Platform Data Architect certification along with an 
+            AWS Cloud Practitioner Certificate.
           </Body>
           <Body>
             When I step away from the screen, I'm usually trying a new restaurant or testing a recipe at home! ^_^
