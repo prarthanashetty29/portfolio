@@ -238,7 +238,7 @@ export default function AboutPage() {
             AWS Cloud Practitioner Certificate.
           </Body>
           <Body>
-            When I step away from the screen, I'm usually trying a new restaurant or testing a recipe at home! ^_^
+            When I step away from the screen, I&apos;m usually trying a new restaurant or testing a recipe at home! ^_^
           </Body>
         </Block>
       </PageWrap>
