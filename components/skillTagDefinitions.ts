@@ -14,6 +14,7 @@ export const TAGS = {
   Snowflake: { label: "Snowflake", bg: "#29B5E8", color: "#0a0a0a" },
   MuleSoft: { label: "MuleSoft", bg: "#00B4E0", color: "#0a0a0a" },
   Salesforce: { label: "Salesforce", bg: "#00A1E0", color: "#ffffff" },
+  "Microsoft Dynamics 365": { label: "Microsoft Dynamics 365", bg: "#002050", color: "#ffffff" },
   "SQL Server": { label: "SQL Server", bg: "#CC2927", color: "#ffffff" },
   Talend: { label: "Talend", bg: "#FF6D00", color: "#ffffff" },
   SQL: { label: "SQL", bg: "#336791", color: "#ffffff" },
